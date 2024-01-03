@@ -38,7 +38,7 @@ class Net(nn.Module):
         return x
 
 
-PATH = './cnn.pth'
+PATH = './net.pth'
 checkpoint = torch.load(PATH)
 net = Net()
 net.load_state_dict(checkpoint)

@@ -107,7 +107,7 @@ for i in range(N - NUM):
 
 
 print(cnt)
-PATH = './cnn.pth'
+PATH = './net.pth'
 torch.save(net.state_dict(), PATH)
 
 '''fig, ax1= plt.subplots(1, 1, figsize=(8, 8))
